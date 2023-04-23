@@ -14,5 +14,11 @@ Inicio
 escreval("Digite seu genêro, usando apenas 'M' ou 'F'!)
 leia(genero)
 
+limpatela
+
+Repita 
+
+
+
 
 Fimalgoritmo
