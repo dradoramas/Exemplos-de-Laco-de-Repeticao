@@ -1,16 +1,21 @@
 Algoritmo "Exemplo 3"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Escrever um algoritmo que gera e escreve os números ímpares entre 100 e 200.
+// DescriÃ§Ã£o   : Escrever um algoritmo que gera e escreve os nÃºmeros Ã­mpares entre 100 e 200.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 13/04/2023
 
 Var
-// Seção de Declarações das variáveis
 
+n: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
 
+//LaÃ§o de RepetiÃ§Ã£o "para...faÃ§a"
+para n de 100 ate 200 faca
+     se n % 2 <> 0 entao
+       escreval("Os Impares sÃ£o: ", n)
+     fimse
+fimpara
 
 Fimalgoritmo
