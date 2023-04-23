@@ -1,18 +1,35 @@
 Algoritmo "Exemplo 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Escreva um algoritmo que pergunte ao usuário se deseja inserir mais uma nota, se a resposta do usuário for "NÃO",
-//o programa fará a média aritmética das notas informadas e mostrará a média aritmética para o usuário.
-//Obs: Use um contador dentro do laço de repetição para contar a quantidade e iterações (loops).
+// DescriÃ§Ã£o   : Escreva um algoritmo que pergunte ao usuÃ¡rio se deseja inserir mais uma nota, se a resposta do usuÃ¡rio for "NÃƒO",
+//o programa farÃ¡ a mÃ©dia aritmÃ©tica das notas informadas e mostrarÃ¡ a mÃ©dia aritmÃ©tica para o usuÃ¡rio.
+//Obs: Use um contador dentro do laÃ§o de repetiÃ§Ã£o para contar a quantidade e iteraÃ§Ãµes (loops).
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 13/04/2023
 
-Var
-// Seção de Declarações das variáveis 
+Var 
 
+resposta:caracter
+media, nota: real
+quantidade:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+//LaÃ§o de RepetiÃ§Ã£o "Repita...atÃ©"
+repita
+       escreval("Digite sua mÃ©dia:")
+       leia(media)
+       
+         limpatela
+         
+       escreval("Gostaria de mais uma nota?")
+       leia(resposta)
+       
+        quantidade <- quantidade + 1
+        media <- media/quantidade
+   ate resposta="nÃ£o"
+      
+escreval("Sua media Final:", media:6:2)
 
 
 Fimalgoritmo
