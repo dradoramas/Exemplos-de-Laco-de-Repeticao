@@ -11,14 +11,14 @@ genero: caracter
 
 Inicio
 
-escreval("Digite seu genêro, usando apenas 'M' ou 'F'!)
+//Impressão para o usuário
+escreval("Digite seu genêro, usando apenas 'M' ou 'F'!")
 leia(genero)
-
 limpatela
 
-Repita 
-
-
-
+//Laço de Repetição "repita...ate"
+repita
+escreval("DIGITE 'F' OU 'M'")
+ate genero="M"
 
 Fimalgoritmo
