@@ -11,3 +11,4 @@ Obs: Use um contador dentro do laço de repetição para contar a quantidade e i
 
 4. Escreva uma programa que lê o sexo de uma pessoa. O sexo deverá ser com o tipo de dado caractere e o programa deverá aceitar apenas os valores "M" e "F".
 
+//Fim
